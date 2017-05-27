@@ -20,9 +20,10 @@ No additional dependencies required
 
 All commands default to mod-level or higher, to change this, open `randomTitleSystem.js` and change the 2s at the very bottom to your desired permission level (do !permissions in chat for a list)
 
-Note: For multi-word titles, use quotes around the name. e.g. "Metro 2033".
-	  You can use 'this' as an abbreviation for the game currently being played.
-	  IDs start counting with 0, so the first title is 0, the second is 1, etc...
+Notes:
+- For multi-word titles, use quotes around the name. e.g. "Metro 2033".
+- You can use 'this' as an abbreviation for the game currently being played.
+- IDs start counting with 0, so the first title is 0, the second is 1, etc...
 
 - !addtitle [game] [title]
 	- Adds [title] to [game]'s list of stored titles.
@@ -40,7 +41,7 @@ Note: For multi-word titles, use quotes around the name. e.g. "Metro 2033".
 	- Deletes a title based on its ID from the specified game's list
 	- Example: !deltitle "Metro 2033" 2
 - !titlemode [mode]
-	-Sets the mode for the title system, they are as follows:
+	- Sets the mode for the title system, they are as follows:
 	1. After the title is selected, leave it in the active list (default)
 	2. After the title is selected, move it to a 'used' list so it is not selected again
 	3. After the title is selected, permanently delete the title from the database
