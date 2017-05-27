@@ -63,6 +63,7 @@ Notes:
 	- The only command that can only be run by the channel owner no matter the permission level specified. When run, it asks for confirmation that you want to reset everything for this system by generating a random 3 digit code you must retype to confirm you really want to clear everything. This is irreversible unless you backup your phantombot.db regularly.
 &nbsp;
 
+
 ###### Contact
 
 If you have any issues with this system, don't hesitate to contact me by joining the phantombot discord channel (linked at the bottom of https://community.phantombot.tv) and mention @WTMike24
