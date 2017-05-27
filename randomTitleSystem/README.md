@@ -30,30 +30,54 @@ Notes:
 - !addtitle [game] [title]
 	- Adds [title] to [game]'s list of stored titles.
 	- Example: !addtitle "Metro 2033" Getting Spooped in the Metro
+
+&nbsp;
+
 - !usetitle or !randomtitle
 	- Both perform the same operation, they randomly select a title from the current game and set it as the current title for the stream.
 	- Example: !usetitle
+
+&nbsp;
+
 - !titlequery [game] [title ID]
 	- Searches through [game]'s list of titles and displays the one with the specified ID, or all of them if 'all' is used instead
 	- Example: !titlequery "Metro 2033" 2
+
+&nbsp;
+
 - !updatetitle [game] [title ID] [newTitle]
 	- Updates the title at the specified index (ID) with the new title for the specified game
 	- Example: !updatetitle "Metro 2033" 0 Who Says Metro is Hard
+
+&nbsp;
+
 - !deltitle [game] [title ID]
 	- Deletes a title based on its ID from the specified game's list
 	- Example: !deltitle "Metro 2033" 2
+
+&nbsp;
+
 - !titlemode [mode]
 	- Sets the mode for the title system, they are as follows:
 	1. After the title is selected, leave it in the active list (default)
 	2. After the title is selected, move it to a 'used' list so it is not selected again
 	3. After the title is selected, permanently delete the title from the database
 	- Example: !titlemode 2
+
+&nbsp;
+
 - !titlereload [game] or !reloadtitle [game]
 	- Reloads the titles from the specified game's 'used' list back to the active list, only necessary when you are using mode 2
 	- Example: !titlereload "Metro 2033"
 
+&nbsp;
+
+
 - !titlereset
 	- The only command that can only be run by the channel owner no matter the permission level specified. When run, it asks for confirmation that you want to reset everything for this system by generating a random 3 digit code you must retype to confirm you really want to clear everything. This is irreversible unless you backup your phantombot.db regularly.
+
+&nbsp;
+
 
 ###### Contact
 
