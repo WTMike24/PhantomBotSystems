@@ -400,7 +400,7 @@
 				$.inidb.set('titles', 'titlereset', JSON.stringify(String(0)+','+String(0)));
 			} else {
 				$.log.error("WHY ARE WE AT THE ELSE??");
-				$.log.error("COMMAND: " + command + "ARGS: " + String(args[0]).length);
+				$.log.error("COMMAND: " + command + "ARGS: " + String(args[0]));
 			}
 		}
 	});
