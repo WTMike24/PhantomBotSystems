@@ -9,9 +9,6 @@ $.lang.register('randomtitlesystem.use.failure', 'No titles set for $1');
 $.lang.register('randomtitlesystem.use.empty', 'No titles remain for $1, use !addtitle to add more');
 $.lang.register('randomtitlesystem.use.empty2', ', or use !titlereload to restore the used titles');
 $.lang.register('randomtitlesystem.use.unknown', 'Cannot obtain title for $1');
-$.lang.register('randomtitlesystem.del.success', 'Successfully deleted title $1 from $2');
-$.lang.register('randomtitlesystem.del.failure', 'Unable to delete title index $1 for $2');
-$.lang.register('randomtitlesystem.del.warning', 'No titles remain for $1');
 $.lang.register('randomtitlesystem.update.success', 'Successfully updated title $1 for $2');
 $.lang.register('randomtitlesystem.update.404', 'No index $1 for $2, be sure you typed it correctly');
 $.lang.register('randomtitlesystem.mode.usage', 'Usage: !titlemode [status|set|list|info] [mode]');
@@ -27,6 +24,7 @@ $.lang.register('randomtitlesystem.reload.404', 'No used titles for $1');
 $.lang.register('randomtitlesystem.reload.4042',', titles are only used in mode 2, you are in mode $1.')
 $.lang.register('randomtitlesystem.delete.usage', 'Deletes a title based on its game and ID. Usage: !deltitle [game] [title ID]');
 $.lang.register('randomtitlesystem.delete.success', 'Successfully deleted title $1 from $2');
+$.lang.register('randomtitlesystem.delete.all', 'Successfully deleted all titles for $1');
 $.lang.register('randomtitlesystem.query.usage', 'Queries a game for a title with the specified ID (use all for a full list). Usage: !titlequery [game] [title ID]');
 $.lang.register('randomtitlesystem.query.404', 'No titles found for $1');
 $.lang.register('randomtitlesystem.query.all', 'Current titles for $1: $2');

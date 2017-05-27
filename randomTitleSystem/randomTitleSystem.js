@@ -213,11 +213,18 @@
 		}
 		currentTitles = JSON.parse($.inidb.get('titles', game.toLowerCase()));
 		currentList = unJoinFrom(currentTitles);
+		/*if (index.equalsIgnoreCase('all')) {
+			$.say($.lang.get('randomtitlesystem.delete.all', game));
+			$.inidb.RemoveKey('title', '', game);
+			if ($.inidb.exists('titles', game.toLowerCase()+'-used')) {
+				$.inidb.RemoveKey('title', '', game+'-used');
+			}
+		}*/
 		if (index > currentList.length-1) {
 			$.say($.lang.get('randomtitlesystem.query.oob', index, game, currentList.length-1));
 			return;
 		}
-
+		$.say($.lang.get('randomtitlesystem.delete.success', index, game))
 		postRemoved = removeAtIndex(currentList, index);
 		$.inidb.set('titles', game.toLowerCase(), JSON.stringify([joinFrom(postRemoved,0,',')]));
 	}
