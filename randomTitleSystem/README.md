@@ -25,6 +25,7 @@ Notes:
 - You can use 'this' as an abbreviation for the game currently being played.
 - IDs start counting with 0, so the first title is 0, the second is 1, etc...
 
+
 - !addtitle [game] [title]
 	- Adds [title] to [game]'s list of stored titles.
 	- Example: !addtitle "Metro 2033" Getting Spooped in the Metro
