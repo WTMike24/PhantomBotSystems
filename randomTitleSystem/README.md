@@ -1,4 +1,4 @@
-## randomTitleSystem
+## Random Title System
 
 ###### About this system
 
