@@ -1,3 +1,6 @@
+I think this is broken in the newer versions of Phantombot.
+I can't guarantee it'll work if you try it.
+
 ## Random Title System
 
 ###### About this system
